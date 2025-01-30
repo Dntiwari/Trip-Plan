@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.cards{
+    width:80vw;
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    
+}  
+
+.title{
+    font-size: 3rem;
+    margin:6vh;
+    border:7px dashed rgb(1,17,160);
+    border-radius:20px;
+    padding: 1vh 5vw;
+}

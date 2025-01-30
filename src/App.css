@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 3px;
+  background-color: #000;
+  margin: 0.5rem auto 0;
+  border-radius: 5px;
+}
+
+.refresh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
